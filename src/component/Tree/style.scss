@@ -1,0 +1,44 @@
+.tree-container {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width: 400px;
+    .apple-on-tree {
+        display:flex;
+        justify-content:center;
+        align-items:flex-start;
+        position: relative;
+    }
+    .tree {
+        height: 500px;
+        display:flex;
+        justify-content:center;
+        align-items:center;
+    }
+    .apples-container {
+        display:flex;
+        flex-direction: row-reverse;
+        justify-content:center;
+        align-items:center;
+        position: absolute;
+        width:300px;
+        height:300px;
+        margin-top: 1rem;
+        flex-wrap:wrap;
+    }
+}
+
+
+.shaking{
+    animation: .8s shake  infinite ;
+}
+
+@keyframes shake {
+    0% { transform: skewX(-15deg); }
+    5% { transform: skewX(15deg); }
+    10% { transform: skewX(-15deg); }
+    15% { transform: skewX(15deg); }
+    20% { transform: skewX(0deg); }
+    100% { transform: skewX(0deg); }
+}
+

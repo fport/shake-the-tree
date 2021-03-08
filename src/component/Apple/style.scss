@@ -1,0 +1,24 @@
+.apple {
+    display:flex;
+    height:60px;
+    margin-right: 1rem;
+}
+
+.drop-apple {
+    display:flex;
+    height:60px;
+    margin-right: 1rem;
+      animation: .8s fadeInDown  ;
+}
+
+@keyframes fadeInDown {
+   0% {
+      opacity: 0;
+      transform: translateY(-250px);
+   }
+   100% {
+      opacity: 1;
+      transform: translateY(0);
+   }
+} 
+

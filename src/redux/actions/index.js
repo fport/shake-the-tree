@@ -1,0 +1,6 @@
+const CONSTANTS = {
+  ADD_APPLE: 'ADD_APPLE',
+  DROP_APPLE: 'DROP_APPLE',
+  ERROR: 'ERROR'
+}
+export default CONSTANTS
